@@ -1,15 +1,26 @@
 # webauthn_flutter
 
-A new Flutter plugin for webauthn.
+A Flutter plugin for **WebAuthn authentication** that enables **fingerprint or platform-based biometric login** on the web using the WebAuthn standard.
 
-## Getting Started
+This plugin injects the required JavaScript at runtime and allows Flutter web apps to interact with the browser's native credential management APIs without requiring manual setup by the developer.
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Features
 
+- ✅ WebAuthn support for Flutter Web  
+- ✅ Biometric login (fingerprint, FaceID, etc.) via browser APIs  
+- ✅ Automatic JavaScript injection — no HTML edits required  
+- ✅ Developer-friendly and easy to integrate  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Add the dependency
+
+In your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  webauthn_flutter: ^<latest_version>
